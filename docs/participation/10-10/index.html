@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>More Javascript</title>
+    
+    <script>
+        window.onload = function(){
+            var myInt = 42;
+            let myOtherInt = 9001;
+            anotherInt = 900;
+
+            const SOME_VALUE = 3.14159;
+            // alert("I am annoying")
+            let myDouble = [5, 'hi'];
+            let myVar;
+            let myOtherVar = null;
+            // This is how you write a comment
+            /*
+                Multiline is just
+                like C++
+            */
+
+            // y only within the scope of the if statement because of "let"
+            if (true){
+                let y = 42;
+            }
+
+            console.log("This is a console message");
+
+            var currentDate = {
+                dateTime: null
+            }
+        }
+
+        document.getElementById("update-date").addEventListener("click", pizzaTime);
+
+        function pizzaTime(){
+            console.log("Is it Pizza Time???")
+        }
+
+
+        
+    </script>
+</head>
+<body>
+    <h1>More Javascript yay!</h1>
+    <a href="../../index.html">Link to home Page</a>
+    <div>
+        <p>
+            <span id="update-date">Click the button</span>
+        </p>
+        <p>
+            <button id="update-date">
+                Click to see the current date time!
+            </button>
+        </p>
+    </div>
+</body>
+</html>
