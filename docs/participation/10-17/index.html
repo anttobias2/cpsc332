@@ -120,6 +120,16 @@
                 alert("temp-div clicked");
             });
 
+            // solution: attach event listener to a containing element that is static - i.e. constant and exists!
+            document.getElementById("container").addEventListener("click", function (e) {
+                if (e.target.id == "temp-div"){
+                    alert("dynamic temp-div clicked");
+                }
+                else{
+                    alert("Alert was not a temp div")
+                }
+            });
+
         }//end of onload function
     </script>
 </head>
