@@ -1,0 +1,16 @@
+legend {
+    padding: 10px;
+}
+
+fieldset {
+    padding: 10px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: blueviolet;
+    margin: 10px;
+}
+
+form {
+    padding: 10px;
+    margin: 10px;
+}
