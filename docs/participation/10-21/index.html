@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Participation 10-21</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <fieldset>
-        <legend style="padding: 10px;">CPSC 10/21 Participation</legend>
+        <legend>CPSC 10/21 Participation</legend>
+
+        <form method="POST" action="submission.html">
+            <label for="name">Full Name:</label>
+            <input id="name" name="name">
+            <button>Save data</button><br><br>
+            <label for="birthday">Birthday:</label>
+            <input id="birthday" name="birthday">
+            <button>Save data</button><br><br>
+            <label for="color">Favorite Color:</label>
+            <input id="color" name="color">
+            <button>Save data</button><br><br>
+            <input type="submit" value="Submit Response">
+        </form>
     </fieldset>
     
 </body>
